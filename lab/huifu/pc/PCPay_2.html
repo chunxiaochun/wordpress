@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>汇付天下</title>
+	<script language="javascript" src="js/jquery.js"></script>
+	<script language="javascript" src="js/PC.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<a class="logo" title="CHINAPnR 汇付天下 | 快捷支付"></a>
+	<p class="support_call"></p>
+</div>
+<div class="container">
+	<div class="content_top"></div>
+	<div class="content">
+
+	<form action="PHPayProc2.do" method="post">
+
+		<p class="info">
+			<span class="price">185.00</span>元<b>|</b>
+			订单日期:<span>2012-08-01</span><b>|</b>
+			订单编号:<span>43018750</span><b>|</b>
+			商户名称:<span>苏宁易购</span>
+		</p>
+
+		<dl class="form">
+			<dt><label for="card_no">最近使用银行卡</label></dt>
+			<dd>
+				<ul id="list" class="list">
+					<li>
+						<a href="javascript:chooseCard(0)" >
+							<img src="images/banks/T1.png" width="17" height="17">
+								中国建设银行(信用卡) - 6648
+						</a>
+						<input type="hidden" name="cardSeqId0" id="cardSeqId0" value="000000000203" />
+						<input type="hidden" name="cardGateId0" id="cardGateId0" value="T1" />
+						<input type="hidden" name="cardMp0" id="cardMp0" value="13800000001" />
+						<div class="list_hint" id="bankHint0" style="display:none" >
+							中国建设银行信用卡, 单笔限额100.00, 每日限额10000.00<span></span>
+						</div>
+					</li>
+
+					<li>
+						<a href="javascript:chooseCard(1)" >
+							<img src="images/banks/F1.png" width="17" height="17">
+								中国农业银行(信用卡) - 5794
+						</a>
+						<input type="hidden" name="cardSeqId1" id="cardSeqId1" value="000000000204" />
+						<input type="hidden" name="cardGateId1" id="cardGateId1" value="F1" />
+						<input type="hidden" name="cardMp1" id="cardMp1" value="13800000002" />
+						<div class="list_hint" id="bankHint1" style="display:none" >
+							中国农业银行信用卡, 单笔限额1000.00, 每日限额20000.00<span></span>
+						</div>
+					</li>
+
+
+					<li>
+						<a>
+							<img src="images/banks/F4.png" width="17" height="17">
+								中国光大银行(信用卡) - 3490
+						</a>
+						<div class="error_list_hint">
+							银行卡有效期过期
+							<span></span>
+						</div>
+					</li>
+
+					<li>
+						<a>
+							<img src="images/banks/TX.png" width="17" height="17">
+								浦东发展银行(借记卡) - 5343
+						</a>
+						<div class="error_list_hint">
+							银行卡在黑名单中
+							<span></span>
+						</div>
+					</li>
+
+
+					<li><a href="PCPay_1.html" class="add">新增银行卡</a></li>
+				</ul>
+			</dd>
+			<dt></dt>
+
+			<dd class="remove_link"><a href="PCPay_3.html">银行卡解绑</a></dd>
+
+			<dt><label for="phone">银行预留手机号</label></dt>
+			<dd>
+				<input type="text" name="ChoiceUsrMp" id="ChoiceUsrMp" placeholder="请选择银行卡" value=""
+				       readonly="readonly"  maxlength="11" tabindex="4"/>
+				<span id="ChoiceUsrMpIcon" class="icon" style="display:none"></span>
+				<div id="ChoiceUsrMpErr" class="error_hint" style="display:none"><span></span></div>
+			</dd>
+
+			<dt><label for="code">验证码</label></dt>
+			<dd>
+				<input class="code" name="AuthCode" id="AuthCode" placeholder="请输入验证码" value=""
+				       maxlength="6" tabindex="5" onkeyup="listenBindCardPayButton();" onblur="validAuthCode();checkPayButton();"/>
+				<a class="send_code" id="sendMpCode" href="javascript:sendCodeNoCheck()" tabindex="7">获取手机验证码</a>
+				<span id="AuthCodeIcon" class="icon o c" style="display:none"></span>
+				<div id="AuthCodeErr" class="error_hint" style="display:none"><span></span></div>
+			</dd>
+		</dl>
+
+		<dl class="pay">
+			<a class="btn_disable" id="payButton" tabindex="8">立即支付</a>
+		</dl>
+
+
+		<input type="hidden" name="successCardSeqId" id="successCardSeqId" value="" />
+
+		<input type="hidden" name="ChoiceGateId" id="ChoiceGateId" value="" />
+		<input type="hidden" name="CardSeqId" id="CardSeqId" value="" />
+
+		<input type="hidden" id="ctx" name="ctx" value="<%=contextPath%>"/>
+
+		<input type="hidden" name="PageSource" value="/PHPay/PCPay_2.jsp" />
+	</form>
+	</div>
+	<div class="content_bottom"></div>
+
+</div>
+
+<div class="footer">
+	<a href="http://www.chinapnr.com/intro/" target="_blank">关于汇付天下</a>
+	<a href="http://weibo.com/1938206822" target="_blank">官方微博</a>
+	<a href="http://www.chinapnr.com/qa/" target="_blank">帮助中心</a>
+	<a href="http://www.chinapnr.com/security/" target="_blank">安全中心</a>
+	<p>汇付天下有限公司版权所有 <span>Copyright&copy;2012 ChinaPnR All Right Reserved</span></p>
+	<div class="authentication">汇付天下已与100多家银行合作开通快捷支付业务。联合提供五重加密技术，保障您的账户与信息的安全。</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	chooseCard(0); //默认选中第一个
+});
+
+function chooseCard(index){
+	$(".current").removeClass("current");
+	$("#list > li:eq(" + index +")").addClass("current");
+
+	showCard(index);
+}
+
+//记录卡信息，展示卡信息
+function showCard(index){
+	$("#CardSeqId").val($("#cardSeqId" + index).val());
+	$("#ChoiceGateId").val($("#cardGateId" + index).val());
+	$("#ChoiceUsrMp").val($("#cardMp" + index).val());
+
+	showSuccess("ChoiceUsrMp");
+
+	captureBindedCardInfo(index);
+}
+
+function checkPayButton(){
+	if( mpAndAuthCodeOk()){
+		payButtonReableGotoPay();
+	}
+}
+
+function gotopay(){
+	if(! mpAndAuthCodeOk()){
+		return ;
+	}
+
+	disablePayButton();
+	disableAuthCode();
+
+	document.location.href = 'PCPay_4.html';
+}
+</script>
+
+</body>
+</html>

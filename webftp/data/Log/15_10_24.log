@@ -1,0 +1,245 @@
+[ 2015-10-24 22:05:50 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/diguo  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:05:50 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:05:51 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/lab  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:05:51 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:05:53 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:05:53 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:05:54 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-admin  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:05:54 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:05:55 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-content  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:05:55 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:08 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-includes  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:08 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/.htaccess  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/cookie.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/index.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/license.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/readme.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/sitemap.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/sitemap.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/sitemap.xml.gz  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/sitemap_baidu.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/tz.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/tz1.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-activate.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-atom.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-blog-header.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-comments-post.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-commentsrss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-config-sample.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-config.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-cron.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-feed.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-links-opml.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-load.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-login.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-mail.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-pass.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-rdf.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-register.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-rss.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-rss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-settings.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-signup.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/wp-trackback.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/xmlrpc.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:11 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:55 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/diguo  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:55 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:56 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/lab  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:56 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:56 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/webftp  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:56 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:06:58 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-admin  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:06:58 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:00 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-content  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:00 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:09 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-includes  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:09 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/.htaccess  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/cookie.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/license.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/readme.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.xml.gz  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap_baidu.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/tz.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/tz1.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-activate.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-atom.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-blog-header.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-comments-post.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-commentsrss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-config-sample.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-config.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-cron.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-feed.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-links-opml.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-load.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-login.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-mail.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-pass.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rdf.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-register.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rss.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-settings.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-signup.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-trackback.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/xmlrpc.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:10 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:15 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/diguo  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:15 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:15 (CST) ]  WARNING:  mkdir(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/function.php  第116行  
+[ 2015-10-24 22:07:15 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/lab  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:15 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:16 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/webftp  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:16 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:16 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-admin  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:16 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:17 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-content  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:17 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:23 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-includes  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:23 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/.htaccess  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/cookie.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/index.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/license.txt  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/readme.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.html  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap.xml.gz  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/sitemap_baidu.xml  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/tz.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/tz1.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-activate.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-atom.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-blog-header.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-comments-post.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-commentsrss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-config-sample.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-config.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-cron.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-feed.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-links-opml.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-load.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-login.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-mail.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-pass.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rdf.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-register.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rss.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-rss2.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-settings.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-signup.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/wp-trackback.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  fileperms(): stat failed for ./../newdir/webftp/xmlrpc.php  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第206行  
+[ 2015-10-24 22:07:24 (CST) ]  WARNING:  chmod(): No such file or directory  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/Base.class.php  第210行  
+[ 2015-10-24 22:08:06 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:06 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:07 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:08 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:10 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:10 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:11 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:08:12 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:12:15 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:12:15 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:12:20 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  
+[ 2015-10-24 22:12:22 (CST) ]  WARNING:  fread(): Length parameter must be greater than 0  /var/lib/openshift/562b58cc2d52710f8900010f/app-root/data/current/webftp/inc/PclZip.class.php  第1362行  

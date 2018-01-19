@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>汇付天下</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/DatePicker/WdatePicker.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      $("#eAll").change(function(){
+        $(".choose_list input:checkbox").attr("checked",$(this).attr("checked"))
+      })
+      $(".choose_list input:checkbox").change(function(){
+        var pp = $(this).parent().parent();
+        if ($(pp).index()==0){
+          $(pp).parent().find("input:checkbox").attr("checked",$(this).attr("checked"))
+        }else{
+          var dl = $(pp).find("input:checked").length;
+          var cl = $(pp).find("input:checkbox").length;
+          if (dl==cl){
+            $(pp).prev().find("input:checkbox").attr("checked",true)
+          }else{
+            $(pp).prev().find("input:checkbox").attr("checked",false)
+            
+          }
+        }
+        var adl = $(".choose_list input:checked").length;
+        var acl = $(".choose_list input:checkbox").length;
+        if(adl==acl){
+          $("#eAll").attr("checked",true)
+        }else{
+          $("#eAll").attr("checked",false)            
+        }
+      })
+    })
+  </script>
+</head>
+<body class="b_color">
+  <!--头部-->
+  <div class="h_main allpic">
+    <div class="header allpic">
+      <div class="header_logo">
+        <ul>
+          <li class="logo">
+            <a href="http://www.chinapnr.com">
+              <img src="images/chinapnr_logo.jpg" width="214" height="43" alt="汇付天下"></a>
+          </li>
+          <li class="info">
+            <span>
+              用户名: 张娅洁
+            </span>
+            <span>
+              <a href="grxxwh.html">个人信息维护</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">退出</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">帮助中心</a>
+            </span>
+            2012-06-26 星期三
+          </li>
+        </ul>
+      </div>
+      <!--菜单-->
+      <div class="menu">
+        <ul>
+          <li class="click_off">
+            <a href="index.html">我的首页</a>
+          </li>
+          <li class="click_off">
+            <a href="zhzl.html">账户查询</a>
+          </li>
+          <li class="click_off">
+            <a href="skddcx.html">交易查询</a>
+          </li>
+          <li class="click_off">
+            <a href="cz.html">充值转账</a>
+          </li>
+          <li class="click_off">
+            <a href="zhjssz.html">账户设置</a>
+          </li>
+          <li class="click_on">
+            <a href="xxwh.html">操作员管理</a>
+          </li>
+          <li class="click_off">
+            <a href="yyzx.html">应用中心</a>
+          </li>
+          <li class="other">
+            <span><a href="df.html">代发</a></span><span><a href="dk.html">代扣</a></span><span><a href="xy.html">信用</a></span><a href="POSsk.html">POS 收款</a>
+          </li>
+        </ul>
+      </div>
+      <!--子菜单-->
+      <div class="menu_list">
+        <ul>
+          <li class="off">
+            <a href="xxwh.html">信息维护</a>
+          </li>
+          <li class="on">
+            <a href="qxxg.html">权限修改</a>
+          </li>
+          <li class="off">
+            <a href="xzczy.html">新增操作员</a>
+          </li>
+        </ul>
+      </div>
+      <!--子菜单结束-->
+      <!--菜单结束-->
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+  <!--头部结束-->
+  <!--当中内容块-->
+  <div class="yy_main">
+    <div class="yy_title">操作员权限修改</div>
+    <div class="transaction_external padding_b_0">
+      <div class="clearfix">
+        <span class="label margin_l_10">操作员:</span>
+        <span class="fund-item">
+          <select name="name">
+            <option value="">全部</option>
+            <option value="">选项1</option>
+            <option value="">选项2</option>
+            <option value="">选项3</option>
+          </select>
+        </span>       
+        <a class="btn confirm margin_l_10 f_l" href="javascript:void(0);">查询</a>
+      </div>
+      <div class="clearfix qx_line_top">
+        <span class="label margin_l_10">将所有权限复制给:</span>
+        <span class="fund-item">
+          <select name="name">
+            <option value="">全部</option>
+            <option value="">选项1</option>
+            <option value="">选项2</option>
+            <option value="">选项3</option>
+          </select>
+        </span>
+        <a class="btn confirm margin_l_10 f_l" href="javascript:void(0);">确定</a>
+      </div>
+      <div class="clear">&nbsp;</div>
+    </div>
+
+    <div class="transaction_external">
+      <div class="choose_all">
+        <label for="eAll" class="cAll">
+          <input name="" type="checkbox" value="" id="eAll">全选</label>
+        <a class="btn confirm margin_l_30" href="javascript:BOX_show('tcdiv');">保存</a>
+      </div>
+      <div class="choose_all choose_list">
+        <table width="100%">
+          <tr>
+            <td width="200">
+              <label for="c_0" class="cAll">
+                <input name="" type="checkbox" value="" id="c_0">网站栏目</label>
+            </td>
+            <td>
+              <label for="c_0_0">
+                <input name="" type="checkbox" value="" id="c_0_0">首页优化设置</label>
+              <label for="c_0_1">
+                <input name="" type="checkbox" value="" id="c_0_1">栏目添加编辑</label>
+              <label for="c_0_2">
+                <input name="" type="checkbox" value="" id="c_0_2">栏目删除</label>
+              <label for="c_0_3">
+                <input name="" type="checkbox" value="" id="c_0_3">栏目排序/显示</label>
+              <label for="c_0_4">
+                <input name="" type="checkbox" value="" id="c_0_4">栏目信息添加/编辑</label>
+              <label for="c_0_5">
+                <input name="" type="checkbox" value="" id="c_0_5">栏目信息删除</label>
+            </td>
+          </tr>
+          <tr>
+            <td width="200">
+              <label for="c_1" class="cAll">
+                <input name="" type="checkbox" value="" id="c_1">产品管理</label>
+            </td>
+            <td>
+              <label for="c_1_0">
+                <input name="" type="checkbox" value="" id="c_1_0">产品添加/编辑/复制</label>
+              <label for="c_1_1">
+                <input name="" type="checkbox" value="" id="c_1_1">产品删除</label>
+              <label for="c_1_2">
+                <input name="" type="checkbox" value="" id="c_1_2">设置推荐/新产品/显示/排序</label>
+              <label for="c_1_3">
+                <input name="" type="checkbox" value="" id="c_1_3">产品批量导入</label>
+              <label for="c_1_4">
+                <input name="" type="checkbox" value="" id="c_1_4">分类添加/编辑</label>
+              <label for="c_1_5">
+                <input name="" type="checkbox" value="" id="c_1_5">分类删除</label>
+              <label for="c_1_6">
+                <input name="" type="checkbox" value="" id="c_1_6">分类转移</label>
+              <label for="c_1_7">
+                <input name="" type="checkbox" value="" id="c_1_7">分类显示/导入</label>
+              <label for="c_1_8">
+                <input name="" type="checkbox" value="" id="c_1_8">品牌管理</label>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <!--当中内容块结束-->
+  <!--页尾-->
+  <div class="main footer_color footer_margin">
+    <div class="footer">
+      汇付天下有限公司版权所有  Copyright©2012 ChinaPnR All Right Reserved
+      <br>
+      <a href="http://www.chinapnr.com/intro/" target="_blank" class="link">关于汇付天下</a>
+      <a href="http://www.chinapnr.com/service/" target="_blank"  class="link">客户服务</a>
+      <a href="http://www.chinapnr.com/security/" target="_blank"  class="link">账户安全</a>
+      <a href="http://www.chinapnr.com/qa/" target="_blank"  class="link">帮助中心</a>
+      <a href="javascript:void(0);" target="_blank"  class="link">联系我们</a>
+      <p class="allpic">
+        客服电话： <b>400 820 5623</b>
+      </p>
+    </div>
+  </div>
+  <!--页尾结束-->
+  <!--悬浮层-->
+      <div id="tcdiv" class="pop">
+          <div class="main">
+            <p class="txt success">************</p>
+          </div>
+          <div class="btns">
+            <a href="jsqxcg.html" class="btn confirm">确定</a>
+            <a href="javascript:BOX_remove('tcdiv')" class="btn confirm">取消</a>
+          </div>
+          <a href="javascript:void(0);" class="close" onClick="BOX_remove('tcdiv')"></a>
+      </div>
+      <!--悬浮层结束-->
+</body>
+</html>

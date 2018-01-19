@@ -1,0 +1,76 @@
+@charset utf-8;
+body,ul,ol,li,p,div,form,h1,h2,h3,h4,img,a img,button{border:0;margin:0;padding:0;}
+body,html{height:100%;position:relative;color:#000;}
+ul,ol,li{list-style:none;}
+h1,h2,h3,h4{font-size:18px;font-weight:400;}
+body{-webkit-user-select:none;-webkit-text-size-adjust:none;font-family:helvetica, verdana, san-serif;font-size:14px;visibility:visible;background:url(images/bg.jpg);background-size:50px 50px;}
+body.apple{position:absolute;top:0;bottom:0;left:0;right:0;}
+input{font-size:16px;font-family:helvetica, san-serif;outline:none;}
+textarea{font-family:helvetica, san-serif;outline:none;}
+a{text-decoration:none;}
+.blue{color:#1b6ec4;}
+header{width:320px;height:43px;background:url(images/title.jpg) no-repeat;background-size:320px 43px;box-shadow:0 0 4px #000;-webkit-box-shadow:0 0 4px #000;margin:0 auto;}
+header button{width:41px;height:31px;text-indent:-9999px;margin:7px 10px 0;}
+header .btn_back{background:url(images/btn_back.png) no-repeat;background-size:41px 31px;}
+header .btn_home{width:170px;background:none;}
+header .btn_more{background:url(images/btn_more.png) no-repeat;background-size:41px 31px;float:right;}
+.content{background:#FFF;width:299px;box-shadow:0 0 4px #bbb;-webkit-box-shadow:0 0 4px #ccc;padding-bottom:10px;position:relative;margin:10px auto 0;}
+.content .top{background:url(images/content_top.png) repeat-x;width:300px;height:5px;background-size:5px 5px;position:absolute;top:-4px;}
+.bottom{background:url(images/content_bottom.png) repeat-x bottom left;width:300px;height:4px;background-size:5px 5px;position:relative;z-index:2;margin:-1px auto 10px;}
+.content .price{background:url(images/price.png) no-repeat;width:134px;height:34px;background-size:135px 44px;position:absolute;top:10px;left:-5px;color:#fff;padding-top:11px;text-align:center;text-shadow:#333 0 0 2px;}
+.content .price .int{font-size:21px;margin-left:-3px;}
+.content .price .float{font-size:16px;}
+.content .price .unit{font-size:13px;margin-left:3px;}
+.content .info{margin-left:143px;font-size:10px;color:#666;padding-top:16px;line-height:12px;}
+.content .info b{color:#1b6ec4;font-weight:400;}
+.content .input{border-top:dashed 1px #ddd;margin-top:12px;padding-bottom:3px;}
+.content input{height:34px;border:solid 1px #d2d2d2;border-radius:5px;font-size:13px;background:url(images/input_bg.gif) repeat-x;background-size:2px 37px;position:absolute;-webkit-transition:box-shadow .3s ease-in-out;padding-top:2px;margin:10px 13px;}
+.content input:focus{outline:none;box-shadow:0 0 4px rgba(96,169,244,1);}
+.content .input section{position:relative;height:45px;}
+.content .card .card_no{padding-left:75px;width:195px;}
+.content .card .name{padding-left:88px;width:182px;}
+.content .card p{font-size:9px;text-align:right;color:#666;margin:7px 15px 0 0;}
+.content .card b{position:absolute;top:22px;right:23px;background:url(images/banks/nongye.png);width:17px;height:17px;background-size:17px 17px;}
+.content .card .id_card{padding-left:60px;width:210px;}
+.content .card .expire{padding-left:100px;width:170px;}
+.content .id_card_select{opacity:0;border:0;width:85px;height:36px;text-align:left;padding-left:7px;background:url(images/select.png);background-size:85px 36px;position:absolute;top:11px;left:14px;z-index:3;}
+.content .id_card_txt{width:85px;height:36px;text-align:left;background:url(images/select.png) no-repeat;background-size:85px 36px;position:absolute;top:11px;left:14px;z-index:2;padding:10px 0 0 7px;}
+.content .check .code{padding-left:98px;width:70px;}
+.content .check .send_code{position:absolute;top:10px;left:190px;background:url(images/send_code_disabled.png);background-size:96px 39px;width:96px;height:39px;}
+.content .check .send_code.on{background:url(images/send_code.png);background-size:96px 39px;}
+.content label{position:absolute;top:22px;left:22px;font-size:13px;}
+.pay{background:url(images/btn_pay_disabled.jpg) no-repeat;width:300px;height:51px;background-size:300px 50px;display:block;position:relative;margin:0 auto 10px;}
+.pay.on{background:url(images/btn_pay.jpg) no-repeat;background-size:300px 50px;}
+.content .choose{position:relative;}
+.content .choose p{font-size:13px;margin:12px 0 10px 20px;}
+.content .choose .list{position:relative;z-index:3;border:solid 1px #d2d2d2;width:275px;border-radius:5px;margin:0 auto;}
+.content .choose ul{border-radius:5px;position:relative;z-index:2;background:#f9f9f4 url(images/input_bg.gif) repeat-x;background-size:2px 37px;}
+.content .choose li{border-bottom:solid 1px #e2e2e2;}
+.content .choose .current a{background-size:12px 10px;background-image:url(images/selected.png);background-repeat:no-repeat;background-position:248px center;}
+.content .choose li a{color:#333;display:block;padding:12px;}
+.content .choose li img{float:left;margin-right:5px;}
+.content .choose li:last-child{border-bottom:0;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;}
+.content .choose li:first-child{-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;}
+.content .choose b{width:12px;height:10px;background:url(images/selected.png) no-repeat;background-size:12px 10px;position:absolute;top:53px;right:30px;}
+.content.success,.content.remove{height:380px;}
+.content.success img{margin:60px 0 3px;}
+.content.success p{font-size:12px;}
+.content.success b,.content.success small{color:#c00;}
+.more, .help{width:320px;margin:0 auto;}
+.more li, .help li{background:url(images/more_divide.png) repeat-x left bottom;}
+.help li{font-size:12px;padding:15px 20px;}
+.help li p{ text-indent:22px; background:url(images/a.png) no-repeat 0 1px;background-size:18px 15px; padding-left:1px; line-height:20px;}
+.more li a{display:block;text-shadow:#fff 1px 0 0 0 1px 0 -1px 0 0 0 -1px 0;padding:8px 0 10px 63px;}
+.more h2{font-size:15px;color:#333;margin:8px 0 1px;}
+ul.help h2{font-size:15px;color:#333; background:url(images/q.png) no-repeat;background-size:18px 15px; padding-left:23px; margin-bottom:5px;}
+.more p{font-size:9px;color:#999;margin-bottom:4px;}
+.more .remove{background:url(images/more_btn_remove.png) no-repeat 10px 7px;background-size:45px 45px;}
+.more .call{background:url(images/more_btn_call.png) no-repeat 10px 7px;background-size:45px 45px;}
+.more .help{background:url(images/more_btn_help.png) no-repeat 10px 7px;background-size:45px 45px;}
+.more .about{background:url(images/more_btn_about.png) no-repeat 10px 7px;background-size:45px 45px;}
+.content .remove p{padding-top:15px;font-size:15px;margin:0 0 11px 22px;}
+.content .remove a{background-size:14px 14px;background-image:url(images/check_box.png);background-repeat:no-repeat;background-position:248px center;}
+.content .remove .current a{background-size:14px 14px;background-image:url(images/check_box_remove.png);background-repeat:no-repeat;background-position:248px center;}
+.content .remove .btn_remove{background:url(images/btn_remove.png);background-size:96px 39px;width:96px;height:39px;display:block;text-indent:-9999px;margin:30px auto;}
+.content .card .cvv2,.content .check .phone{padding-left:110px;width:160px;}
+.content .choose .current,.content .choose li a:active{background:#FFF;}

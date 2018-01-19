@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://gmpg.org/xfn/11">
+	<meta charset="UTF-8" /> 
+	<title>Nothing found for  Wp-content Uploads 2011 01 6602855d-4f26-32c4-9c7d-fc9035c625aa Jpg</title>
+	<link rel="stylesheet" href="http://www.xiezezhun.com/wp-content/themes/prowerV4/style.css" type="text/css" media="screen" />
+	<link rel="alternate" type="application/rss+xml" title="晴空之上,那是梦开始的地方 RSS Feed" href="http://www.xiezezhun.com/feed" />
+	<link rel="pingback" href="http://www.xiezezhun.com/xmlrpc.php" />
+	<script type="text/javascript">
+	window.google_analytics_uacct = "UA-7294540-7";
+</script>
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.2 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-7294540-7']);
+				            _gaq.push(['_setAllowAnchor',true],['_setAllowLinker',true],['_gat._anonymizeIp'],['_setDomainName','www.xiezezhun.com'],['_setDomainName','xiezezhun.com'],['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer]);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel='stylesheet' id='codecolorer-css'  href='http://www.xiezezhun.com/wp-content/plugins/codecolorer/codecolorer.css?ver=0.9.9' type='text/css' media='screen' />
+<script type='text/javascript' src='http://code.jquery.com/jquery-latest.pack.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.73.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://www.xiezezhun.com/wp-content/plugins/aio-shortcodes//js/jquery.nivo.slider.pack.js?ver=3.4.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.xiezezhun.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.xiezezhun.com/wp-includes/wlwmanifest.xml" /> 
+<link rel="stylesheet" href="http://www.xiezezhun.com/wp-content/plugins/aio-shortcodes/style.css" media="screen" />
+<!-- All in One SEO Pack 1.6.15.3 by Michael Torbert of Semper Fi Web Design[95,119] -->
+<!-- /all in one seo pack -->
+<script language="javascript" type="text/javascript">
+<!--
+		function collapseThread( theId ) {
+			var comment = document.getElementById(theId);
+			if(!comment)
+			{
+				alert("ERROR:\nThe document structure is different\nfrom what Threaded Comments expects.\nYou are missing the element '"+theId+"'");
+				return;
+			}
+			var theBody = findBody(comment);
+			if(comment.className.indexOf("collapsed") > -1) {
+				comment.className = comment.className.replace(" collapsed", "");;
+			} else {
+				comment.className += " collapsed";
+			}
+		}
+
+		function expandThread( theId ) {
+			var comment = document.getElementById(theId);
+			if(!comment)
+			{
+				alert("ERROR:\nThe document structure is different\nfrom what Threaded Comments expects.\nYou are missing the element '"+theId+"'");
+				return;
+			}
+			var theBody = findBody(comment);
+			if(comment.className.indexOf("collapsed") > -1) {
+				comment.className = comment.className.replace(" collapsed", "");;
+			} 
+		}
+		
+		function findBody(el)
+		{
+			var divs = el.getElementsByTagName("div");
+			var ret;
+			for(var i = 0; i < divs.length; ++i) {
+				if(divs.item(i).className.indexOf("body") > -1)
+					return divs.item(i);
+			}
+			return false;
+		}
+	
+		function onAddComment() {
+			//checkDocumentIntegrity();
+			var el = document.getElementById("commentform");
+			// Future release: Check if form is filled correctly and mark the form fields.
+			el.submit();
+		}
+		
+		function moveAddCommentBelow(theId, threadId, collapse)
+		{
+			expandThread( theId );
+			var addComment = document.getElementById("addcomment");
+			if(!addComment)
+			{
+			  	alert("ERROR:\nThreaded Comments can't find the 'addcomment' div.\nThis is probably because you have changed\nthe comments.php file.\nMake sure there is a tag around the form\nthat has the id 'addcomment'"); 
+				return
+			}
+			var comment = document.getElementById(theId);
+			if(collapse)
+			{
+				for(var i = 0; i < comment.childNodes.length; ++i) {
+					var c = comment.childNodes.item(i);
+					if(typeof(c.className) == "string" && c.className.indexOf("collapsed")<0) {
+						c.className += " collapsed";
+					}
+				}
+			}
+			addComment.parentNode.removeChild(addComment);
+
+			comment.appendChild(addComment);
+			if(comment.className.indexOf("alt")>-1) {
+				addComment.className = addComment.className.replace(" alt", "");					
+			} else {
+				addComment.className += " alt";
+			}
+		        var replyId = document.getElementById("comment_reply_ID");
+			if(replyId == null)
+			{
+				alert("Brians Threaded Comments Error:\nThere is no hidden form field called\n'comment_reply_ID'. This is probably because you\nchanged the comments.php file and forgot\nto include the field. Please take a look\nat the original comments.php and copy the\nform field over.");
+			}
+			replyId.value = threadId;
+			var reRootElement = document.getElementById("reroot");
+			if(reRootElement == null)
+			{
+				alert("Brians Threaded Comments Error:\nThere is no anchor tag called 'reroot' where\nthe comment form starts.\nPlease compare your comments.php to the original\ncomments.php and copy the reroot anchor tag over.");
+			}
+			reRootElement.style.display = "block";
+			var aTags = comment.getElementsByTagName("A");
+			var anc = aTags.item(0).id;
+			//document.location.href = "#"+anc;
+			document.getElementById("comment").focus();
+		}
+
+		function checkDocumentIntegrity()
+		{
+			str = "";
+			
+			str += checkElement("reroot","div tag");
+			str += checkElement("addcomment", "div tag");
+			str += checkElement("comment_reply_ID", "hidden form field");
+			str += checkElement("content", "div tag");
+			str += checkElement("comment", "textfield");
+			str += checkElement("addcommentanchor", "anchor tag");
+			
+			if(str != "")
+			{
+				str = "Brian's Threaded Comments are missing some of the elements that are required for it to function correctly.\nThis is probably the because you have changed the original comments.php that was included with the plugin.\n\nThese are the errors:\n" + str;
+				str += "\nYou should compare your comments.php with the original comments.php and make sure the required elements have not been removed.";
+
+				alert(str);
+			}
+		}
+               
+		function checkElement(theId, elDesc)
+		{
+			var el = document.getElementById(theId);
+			if(!el)
+			{
+				if(elDesc == null)
+					elDesc = "element";
+				return "- The "+elDesc+" with the ID '" +theId + "' is missing\n"; 
+			}
+			else 
+				return "";
+		}
+		
+		function reRoot()
+		{
+			var addComment = document.getElementById("addcomment");			
+			var reRootElement = document.getElementById("reroot");
+			reRootElement.style.display = "none";
+			var content = document.getElementById("content-main");
+			if( !content )
+				content = document.getElementById("content");
+			if( content )
+			{
+				addComment.parentNode.removeChild(addComment);
+				content.appendChild(addComment);
+			}
+			addComment.className = addComment.className.replace(" alt", "");
+			document.location.href = "#addcommentanchor";
+			document.getElementById("comment").focus();				
+			document.getElementById("comment_reply_ID").value = "0";
+		}			
+		
+		function changeCommentSize(d)
+		{
+			var el = document.getElementById("comment");
+			var height = parseInt(el.style.height);
+			if(!height && el.offsetHeight)
+				height = el.offsetHeight;
+			height += d;
+			if(height < 20) 
+				height = 20;
+			el.style.height = height+"px";
+		}		
+-->
+</script>
+<style type="text/css">
+.comment 
+{
+	position: 				relative;
+	margin:					3px;
+	margin-top:				6px;
+/*	border: 				1px solid #666; */
+	padding:				4px 4px 4px 8px;
+	background-color:		#fff;
+}
+
+.odd
+{
+	background-color: #f8f8f8;
+}
+
+.comment div {
+	position: 				relative;
+}
+
+.comment .comment img
+{
+	margin: 				0px;
+}
+
+.comment .collapseicon 
+{
+	width: 					13px;
+	height: 				13px;
+	overflow:				hidden;
+	background-image: 		url(http://www.xiezezhun.com/wp-content/plugins/briansthreadedcomments.php?image=subthread-open.png);
+}
+
+.collapsed .collapseicon 
+{
+	background-image: 		url(http://www.xiezezhun.com/wp-content/plugins/briansthreadedcomments.php?image=subthread.png);
+}
+
+
+.comment .reply {
+	text-align: 			right;
+	font-size: 				80%;
+	padding: 				0px 6px 6px 0px;
+}
+
+.comment
+{
+	border: 	1px solid #ddd;
+	margin-top: 			10px;
+}
+
+input#subscribe
+{
+	width: auto;
+}
+
+.comment .body .content
+{
+	padding:				0px 3px 0px 3px;
+	/*width: 					100%;	*/
+	overflow: 				auto; 
+}
+
+.comment .title abbr
+{
+	border: none;
+}
+
+.collapsed .body, .collapsed .comment
+{
+	display:				none;
+}
+ 
+#commentform textarea {
+	width: 97%;
+}
+
+.btc_gravatar {
+	float: right;
+	margin: 3px 3px 4px 4px;
+}
+</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<link type="text/css" rel="stylesheet" href="http://www.xiezezhun.com/wp-content/plugins/popularpostsbars/style.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+		<div id="logo"><a href="http://www.xiezezhun.com">晴空之上,那是梦开始的地方</a></div>
+		<div class="menu"><ul><li class="page_item page-item-2"><a href="http://www.xiezezhun.com/about">关于我</a></li><li class="page_item page-item-786"><a href="http://www.xiezezhun.com/project">我的项目</a></li></ul></div>
+	</div>
+	<div id="descr">
+		<ul>
+			<li><a id="rss_icon" href="https://plus.google.com/115277884508074505636/about?
+   rel=author">about me</a></li>
+		</ul>
+		知易行难，善战者无赫赫之功。The dream creats the future we believe.	</div>
+	<div id="content">	<div id="nopage">
+		<h1>404</h1>
+		<div id="search">
+			<form id="searchform" method="get" action="http://www.xiezezhun.com">
+				<input type="text" value="" name="s" id="s" size="30" />
+				<button type="submit">搜索</button>
+			</form>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; 2011 晴空之上,那是梦开始的地方. Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>. Theme by <a href="http://www.prower.cn" target="_blank">Prower</a> & <a href="https://plus.google.com/115277884508074505636/about" target="_blank" rel="author">Wopus</a></p>
+</div>
+<style type="text/css">#slider { width:px; height:px; }.nivo-controlNav { right: 10px; top: 10px; }</style><script type='text/javascript' src='http://www.xiezezhun.com/wp-content/plugins/aio-shortcodes//js/ltsc-custom.js?ver=3.4.1'></script>
+</div>
+</body>
+</html>

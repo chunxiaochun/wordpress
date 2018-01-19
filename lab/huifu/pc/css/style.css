@@ -1,0 +1,110 @@
+@charset utf-8;
+body,h1,h3,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,lengend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1 Arial, Helvetica, sans-serif, 宋体, sans-serif;}
+img,a{border:0;}
+ul,ol,li{list-style:none;}
+a:hover{text-decoration:underline;}
+table{border-collapse:collapse;border-spacing:0;}
+html{overflow-y:scroll;}
+body{background:url(../images/bg.jpg);border-top:solid 2px #054b95;}
+
+.header .logo, .header .support_call, .content_top, .content_bottom, .content .form dd .list li .add, .content .form dd.remove_link a, .content .form .send_code, .content .form .send_code_disable, .content .hint_card,.remove h1,.footer .authentication,.content .form dd .o,.content .form dd .x,.content .form dd .error_hint span, .content .form dd .list li .error_list_hint span{background:url(../images/s8.png) no-repeat;}
+
+.content .form dd .list .current a, .content .pay .btn, .content .pay .btn_disable, .content .pay .back, .content .hint span, .content .list_hint span, .content .list_hint span, .remove .form dd .list li a, .remove .form dd .list .current a, .content .success,.agreement .btn, .note .btn, .note .btn_disable{background:url(../images/s24.png) no-repeat;}
+
+
+.header{width:965px;height:72px;position:relative;margin:-2px auto 0;padding:0 15px;}
+.header .logo{float:left;width:280px; height:56px;}
+.header .support_call{float:right;margin:39px 8px 0 0;background-position: -281px -43px; width:151px; height:13px;}
+.container{width:990px;margin:0 auto;}
+.content_top{height:30px;background-position: 0 -144px; }
+.content_bottom{height:58px;background-position: 0 -175px;}
+.content{background:url(../images/content_center.png) repeat-y;position:relative;padding:10px 75px 30px;overflow:hidden}
+.content .info{color:#888;font-size:14px;}
+.content .info span{font-weight:400;color:#1b6ec4;margin-left:5px;}
+.content .info b{font-weight:400;color:#b4b4b4;margin:0 10px;}
+.content .info .price{color:#c00;font-size:26px;font-weight:700;margin:0 7px 0 15px;}
+.content dl{background:#eceffb;border:solid 1px #d3dee9;padding:33px 35px 10px;}
+.content .form{margin-top:34px;color:#888;}
+.content .form dt{float:left;padding-top:10px;width:125px;text-align:right;display:inline;color:#000;position:relative;}
+.content .form dd{position:relative;padding-bottom:15px;overflow:hidden;_height:100%;}
+.content .form dd .list{float:right;margin-right:402px;_margin-right:409px;border:solid 1px #d3dee9;border-bottom:none;background:#fff url(../images/txtbox.gif) left top repeat-x;display:inline;}
+.content .form dd .list li{position:relative;_margin-left:-16px;*margin-left:-16px;}
+.content .form dd .list li a{border-bottom:solid 1px #d3dee9;line-height:16px;width:225px;display:block;color:#666;padding:7px;}
+.content .form dd .list li .add{ padding-left:34px; width:198px; background-position: -965px -20px;}
+.content .form dd .list li img{float:left;margin-right:10px;}
+.content .form dd .list .current{background:#e4e9ee;}
+.content .form dd .list .current a{background-position: 0 -200px;}
+.content .form dd.remove_link a{ color:#3366cc; width:205px; line-height:16px; display:block; padding-bottom:10px;padding-left:35px;background-position: -965px -2px;}
+.content .form dd.remove_link img{ float:left; margin: 0 12px 0 8px;}
+.content .form dd .icon{width:17px;height:17px;position:absolute;left:215px;top:8px;_top:9px;}
+.content .form dd .logo{background:url(../images/banks/nongye.gif);}
+.content .form dd .o{background-position: -416px -2px;left:220px;}
+.content .form dd .x{background-position: -434px 0;left:220px;}
+.content .form dd .y{left:68px;}
+.content .form dd .m{left:192px;}
+.content .form dd .c{left:86px;}
+
+
+.content .form dd .month,.content .form dd .year{width:70px; margin-right:10px;}
+.content .form dd .year{margin-left:12px;}
+.content .form label{width:125px;color:#888;font-size:14px;margin-right:10px;}
+.content .form input{width:223px;border:solid 1px #d3dee9;font-size:12px;background:url(../images/txtbox.gif) repeat-x;padding:8px 8px 7px;}
+.content .form input:focus{outline:none;}
+.content .form .code{width:88px;float:left;margin-right:7px;}
+.content .form .send_code{width:128px;float:left;display:block;background-position: -281px 0;color:#145bb2;font-weight:700;text-align:center;padding:10px 0;}
+.content .form .send_code_disable{width:128px;float:left;display:block;background-position: -471px 0;color:#FFF;font-weight:700;text-align:center;padding:10px 0;}
+
+.content .pay{border-top:solid 1px #f7f9fd;height:35px;padding:22px 35px;}
+.content .pay .btn{width:109px;display:block;background-position: -2px -2px;color:#fff;text-align:center;font-size:14px;font-weight:700;margin-left:125px;_margin-left:127px;float:left;_display:inline;padding:9px 0;}
+.content .pay .btn_disable{width:109px;display:block;background-position: -293px -175px;color:#fff;text-align:center;font-size:14px;font-weight:700;margin-left:125px;_margin-left:127px;float:left;_display:inline;padding:9px 0;}
+.content .pay .remove{ margin-left:202px;_margin-left:204px;}
+.content .pay .back{width:109px;display:block;background-position: -112px -2px; margin-left:10px;}
+.content .pay label{padding-top:10px;_padding-top:5px;float:left;_line-height:20px;}
+.content .pay label input{float:left;_margin:0 4px;margin:0 8px;*margin:-6px 4px 0px 4px;}
+.content .hint{position:absolute;top:104px;_top:105px;left:495px;_left:420px;width:370px;color:#686868;background:#fffee5;border:solid 1px #ffdb86;line-height:20px;border-radius:2px;padding:5px 10px;}
+.content .hint span{position:absolute;top:10px;left:-6px;background-position: -222px -2px;width:8px;height:9px;}
+.content .hint_card{ width:307px; height:165px; background-position: -1000px -235px;position:absolute;top:170px;left:495px;_left:420px;}
+
+.content .list_hint{position:absolute;top:2px;_top:4px;left:258px;_left:255px;*left:270px;width:370px;color:#686868;background:#fffee5;border:solid 1px #ffdb86;line-height:20px;border-radius:2px;padding:4px 10px;}
+.content .list_hint span{position:absolute;top:10px;left:-6px;background-position: -222px -2px;width:8px;height:9px;}
+
+.content .form dd .error_hint{position:absolute; left:258px;_left:255px;top:2px;_top:4px; background:#ffecea; border: 1px solid #ff9999; color:#cc3300; padding: 5px 15px 8px;_padding: 6px 15px}
+.content .form dd .error_hint span{position:absolute;top:8px;left:-6px;background-position: -952px -47px;width:7px;height:9px; display:block;}
+
+.content .form dd .list li .error_list_hint{position:absolute; width:200px;left:258px;_left:255px; *left:270px; top:2px;_top:4px; background:#ffecea; border: 1px solid #ff9999; color:#cc3300; padding: 5px 15px 8px;_padding: 6px 15px;}
+.content .form dd .list li .error_list_hint span{position:absolute;top:8px;left:-6px;background-position: -952px -47px;width:7px;height:9px; display:block;}
+
+.content .success{width:380px;height:50px;background-position: -2px -37px;color:#888;font-size:14px;line-height:25px;_display:inline;zoom:1;margin:170px;padding:50px 0 0 125px;}
+.remove h1{ width:175px; height:45px; background-position: -423px -64px; text-indent:-9999px;}
+.remove .form{ min-height:200px;}
+.remove .form dt{ width:200px;}
+.remove .form dd .list{margin-right:275px;_margin-right:282px;}
+.remove .form dd .list li a{ width:275px; background-position: 0 -170px;}
+.remove .form dd .list .current a{background-position: 0 -140px;}
+.error{width:520px;height:270px;background:url(../images/error.png) no-repeat;position:absolute;left:50%;margin-left:-260px;top:140px;font-size:14px;color:#666;z-index:3;padding:148px 0 0 190px;}
+.error b{color:#c00;font-weight:400;margin-right:2px;}
+.error a{width:60px;height:50px;float:right;display:block;position:absolute;left:460px;top:0;}
+.agreement{width:650px; height:450px;background:url(../images/agreement.png) no-repeat;position:absolute;left:50%;margin-left:-325px;top:150px;z-index:3; padding-top:90px;}
+.agreement .close{width:50px; height:50px;position:absolute;right:0;top:0px;}
+.agreement .txt{ line-height:20px; margin:0 30px; height:245px; padding:15px 20px; border-top:1px dashed #ccc;border-bottom:1px dashed #ccc; overflow-y:scroll;}
+.agreement h2{ font-size:12px; margin:20px 0 0;}
+.agreement a:hover{ text-decoration:none;}
+.agreement .btn{ width:168px; height:25px; display:block;background-position: -235px -2px; margin:15px auto 0;color:#fff;text-align:center;font-size:14px; font-weight:bold; padding-top:8px;}
+
+.note{width:520px;height:270px;background:url(../images/note.png) no-repeat;position:absolute;left:50%;margin-left:-260px;top:140px;font-size:14px;_font-size:13px;*font-size:13px;color:#666;z-index:3;padding:118px 0 0 190px;}
+.note .note_a{width:60px;height:50px;float:right;display:block;position:absolute;left:460px;top:0;}
+.note .btn{ width:168px; height:25px; display:block;background-position: -235px -2px; margin:40px 0 0 0;_margin:40px 0 0 0;*margin:40px 0 0 0;color:#fff;text-align:center;font-size:14px; font-weight:bold; padding-top:8px;_position:absolute;*position:absolute;}
+.note .btn_disable{ width:168px; height:25px; display:block;background-position: -293px -138px; margin:40px 0 0 0;_margin:40px 0 0 0;*margin:40px 0 0 0;color:#fff;text-align:center;font-size:14px; font-weight:bold; padding-top:8px;_position:absolute;*position:absolute;}
+.note a:hover{ text-decoration:none;}
+.note .note_info{ width:310px; position:absolute;}
+
+.mask{width:100%;height:100%;background:url(../images/mask.png);position:absolute;left:0;top:0; z-index:2;}
+.footer{width:970px;color:#888;position:relative;margin:30px auto 0;padding:0 15px;}
+.footer a{color:#888;line-height:30px;padding:0 5px;}
+.footer p{padding-left:5px;line-height:20px;}
+.footer span{margin-left:8px;}
+.footer .authentication{height:80px;background-position: 0 -60px;position:absolute;right:15px;top:0;width:290px;line-height:20px;padding:5px 0 0 88px;}
+a,.content .form a:hover,.content a:hover{text-decoration:none;}
+.content .pay a{color:#36c}
+.content .success a{color:#36c;margin-left:150px}

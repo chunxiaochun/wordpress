@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>汇付天下</title>
+	<script language="javascript" src="js/jquery.js"></script>
+	<script language="javascript" src="js/PC.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<script type="text/javascript">
+		//显示银行卡要素说明图片
+		var hint_x = [0,-309,-620];
+		function changeHint(id, obj){
+			if(invalidValue($("#" + obj).val())){
+				document.getElementById('hint_card').style.backgroundPosition = hint_x[id]+"px -235px";
+			}
+		}
+
+		function hideHint(){
+			document.getElementById('hint_card').style.backgroundPosition = "-1000px -235px";
+		}
+	</script>
+</head>
+
+<body>
+<div class="header">
+	<a class="logo" title="CHINAPnR 汇付天下 | 快捷支付"></a>
+	<p class="support_call"></p>
+</div>
+<form action="PHPayProc1.do" method="post">
+
+<div class="container">
+	<div class="content_top"></div>
+	<div class="content">
+		<p class="info">
+			<span class="price">185.00</span>元<b>|</b>
+			订单日期:<span>2012-08-01</span><b>|</b>
+			订单编号:<span>43018750</span><b>|</b>
+			商户名称:<span>苏宁易购</span>
+		</p>
+
+		<dl class="form">
+			<dt><label for="CardNo">银行卡号</label></dt>
+			<dd>
+				<input name="CardNo" id="CardNo" placeholder="请输入使用的银行卡卡号"
+				       value=""
+				       tabindex="1" maxlength="19"
+				       onfocus="changeHint(0, 'CardNo')" onblur="hideHint(0);validCardNo();checkShowButton();"
+				       onkeyup="captureCardInfoByCardBin();listenCardNo()"/>
+				<span id="CardNoIcon" class="icon" style="display:none"></span>
+				<div id="CardNoErr" class="error_hint" style="display:none">您输入的银行卡号格式错误。<span></span></div>
+			</dd>
+
+			<dt id="validDateDt" style="display:none">
+				<label for="Cvv2">银行卡有效期</label>
+			</dt>
+			<dd id="validDateDd" style="display:none">
+				<input name="ValidMonth" id="Month" tabindex="2" class="month" maxlength="2"
+				       value=""
+				       onfocus="changeHint(1, 'Month');"
+				       onkeyup="listenValidMonth()" onblur="hideHint(0);validValidMonth();checkShowButton();" />月
+				<input name="ValidYear" id="Year" tabindex="3" class="year" maxlength="2"
+				       value=""
+				       onfocus="changeHint(1, 'Year');"
+				       onkeyup="listenValidYear()" onblur="hideHint(0);validValidYear();checkShowButton();"/>年
+				<span id="MonthIcon" class="icon o y" style="display:none"></span>
+				<span id="YearIcon" class="icon x m" style="display:none"></span>
+				<div id="DateErr" class="error_hint" style="display:none">您输入的银行卡有效期月份格式错误。<span></span></div>
+			</dd>
+
+			<dt id="cvvDt" style="display:none">
+				<label for="Cvv2">银行卡背面后三位</label>
+			</dt>
+			<dd id="cvvDd" style="display:none">
+				<input name="Cvv2" id="CVV" placeholder="请输入银行卡背面后三位"
+				       value=""
+				       tabindex="4" maxlength="3" onfocus="changeHint(2, 'CVV');"
+				       onkeyup="listenCvv2()" onblur="hideHint(0); validCvv2();checkShowButton();"/>
+				<span id="CVVIcon" class="icon" style="display:none"></span>
+				<div id="CVVErr" class="error_hint" style="display:none">您输入的银行卡CVV格式错误，应为3位数字。<span></span></div>
+			</dd>
+
+			<dt><label for="CardName">持卡人姓名</label></dt>
+			<dd>
+				<input name="CardName" id="CardName" placeholder="请输入持卡人中文姓名"
+				       value=""
+				       tabindex="5" onkeyup="listenCardName();" onblur="validCardName();checkShowButton();"/>
+				<span id="CardNameIcon" class="icon" style="display:none"></span>
+				<div id="CardNameErr" class="error_hint" style="display:none">您输入的持卡人姓名格式错误。请输入中文姓名<span></span></div>
+			</dd>
+
+			<dt><label for="CertId">持卡人身份证</label></dt>
+			<dd>
+				<input name="CertId" id="CertId" placeholder="请输入持卡人身份证号码"
+				       value=""
+				       maxlength="18" tabindex="6" onkeyup="listenCertId()" onblur="validCertId();checkShowButton();"/>
+				<span id="CertIdIcon" class="icon" style="display:none"></span>
+				<div id="CertIdErr" class="error_hint" style="display:none">您输入的身份证号码格式错误，应由15或18位数字或字母x组成。<span></span></div>
+			</dd>
+
+			<dt><label for="UsrMp">银行预留手机号</label></dt>
+			<dd>
+				<input name="UsrMp" id="UsrMp" placeholder="请输入银行预留手机号"
+					   value=""
+					   maxlength="11" tabindex="7" onkeyup="listenUsrMp()" onblur="validUsrMp();checkShowButton();"/>
+				<span id="UsrMpIcon" class="icon" style="display:none"></span>
+				<div id="UsrMpErr" class="error_hint" style="display:none">您输入的手机号格式错误。<span></span></div>
+			</dd>
+
+			<dt><label for="AuthCode">验证码</label></dt>
+			<dd>
+				<input class="code" name="AuthCode" id="AuthCode" placeholder="请输入验证码"
+				       value="" maxlength="6" tabindex="8"
+				       onkeyup="listenAuthCode()" onblur="validAuthCode();checkShowButton();"/>
+				<a class="send_code_disable" id="sendMpCode" tabindex="9">获取手机验证码</a>
+				<span id="AuthCodeIcon" class="icon o c" style="display:none"></span>
+				<div id="AuthCodeErr" class="error_hint" style="display:none">您输入的验证码格式错误。<span></span></div>
+			</dd>
+		</dl>
+
+		<div class="hint" style="display:none" id="bankHint">
+			  暂不支持该银行卡。<span></span>
+		</div>
+
+		<div id="hint_card" class="hint_card"></div>
+
+		<dl class="pay">
+			<a class="btn_disable" tabindex="10" id="payButton">立即支付</a>
+			<label>
+				<input name="ag" id="ag" type="checkbox" value="" checked="checked"/>
+				同意<a href="javascript:openAg()">《汇付天下快捷支付服务及相关协议》</a>
+			</label>
+		</dl>
+	</div>
+	<div class="content_bottom"></div>
+
+	<div class="error" id="errorDl" style="display:none">
+		您的验证码输入有误， 您还能输入<b>2</b>次!<a href="#" onclick="hidePayErr()" ></a>
+	</div>
+</div>
+
+<input type="hidden" name="successGateId" id="successGateId" value="" />
+<input type="hidden" name="successCardBin" id="successCardBin" value="" />
+<input type="hidden" name="failCardBin" id="failCardBin" value="" />
+<input type="hidden" name="notGivenCardBin" id="notGivenCardBin" value="" />
+
+<input type="hidden" name="ChoiceGateId" id="ChoiceGateId" value="" />
+
+<input type="hidden" id="countDown" name="countDown" value="" />
+
+<input type="hidden" name="PageSource" value="/PHPay/PCPay_1.jsp" />
+
+</form>
+
+<div id="agreement" class="agreement" style="display:none;">
+	<a class="close" href="javascript:closeAg()"></a>
+	<div class="txt">
+		<p>本协议所称"【快捷支付】"是上海汇付数据服务有限公司（下称"汇付天下"）向用户（即信用卡、借记卡持卡人"您"）提供的一种在线便捷支付服务业务（下称"本业务"）。</p>
+		<p>为了保障用户的合法权益，请用户在注册或使用本业务前，详细阅读本协议。用户注册或使用业务时，即表示用户已充分知晓并理解本协议之含义，并在此基础上接受本协议之全部内容。</p>
+		<h2>一、关联注册</h2>
+		<p>（一）用户应具有法律规定的完全民事权利能力和行为能力，且为能够独立承担民事责任的自然人、法人或其他组织或机构。若用户不具备前述条件，应立即停止注册和使用本业务。</p>
+		<p>（二）用户应使用正确、完整、有效的真实身份信息与相关资料（下称注册信息）注册并使用本业务，并与商户账户、汇付天下账户关联。用户应在通过手机身份验证后方可使用本业务。用户不得冒用或妨碍其他组织、机构或个人注册和使用本业务。</p>
+		<p>用户有义务维护和更新自己的注册信息，确保其持续的准确性、完整性和有效性，并承担因用户的注册信息缺失、陈旧或不真实而造成的任何损失，且汇付天下有权暂停或终止为用户提供本业务。</p>
+		<p>（三）用户授权许可汇付天下通过银行或其他第三方机构验证用户的注册信息，并通过第三方获得用户相关信息。用户授权许可发卡银行向汇付天下及商户提供交易所需的信息。</p>
+		<h2>二、隐私信息保护</h2>
+		<p>（一）隐私信息指用户在关联注册时所提供的全部注册信息及用户使用本业务时所产生时具体交易信息。</p>
+		<p>（二）汇付天下将对用户的隐私信息进行严格的管理及保护，防止用户的隐私信息泄露或被盗用。汇付天下基于对业务和履行反洗钱义务的需要，可以在法律许可范围内保留用户信息。</p>
+		<p>（三）除法律规定，司法机关、业务监管机构及商业银行的调查外，汇付天下不得在履行本协议的需要以外使用用户的隐私信息。</p>
+		<h2>三、业务服务</h2>
+		<p>（一）关联注册。用户依据汇付天下的页面指引，将自己的身份信息、银行卡信息与商户账户、汇付天下账户进行关联注册。</p>
+		<p>（二）资金支付。汇付天下根据用户的支付指令，将已关联银行卡中的资金付至用户所指定的其他的汇付天下合作商户。通过手机验证后进行的支付，视为用户本人的行为。</p>
+		<p>（三）信息更新。汇付天下根据用户的更新申请，将在通过身份认证的情况下允许用户更新相关的个人信息。</p>
+		<h2>四、用户的权利与义务</h2>
+		<p>（一）用户应妥善保管商户及汇付天下的账号、密码及注册信息，因用户保管不当所产生的一切损失由用户自行承担，并赔偿因此给汇付天下或其他主体造成的损失。</p>
+		<p>（二）汇付天下不参与用户与任何其他汇付天下商户或用户之间的交易，用户对使用本业务所进行的网上交易及由此产生的一切后果承担民事法律责任。</p>
+		<p>（三）用户应合理使用本业务，不得从事任何违反法律、法规等具有约束力的规范性文件的活动；不得对本业务使用过程中的任何计算机数据进行拦截、破解、篡改或对本业务系统进行非正常的登录。</p>
+		<p>（四）用户使用汇付天下合作机构提供的其他账户增值服务时，应遵守该增值服务的相应规定，否则汇付天下有权依据合作机构的要求停止该增值服务。</p>
+		<p>（五）在发生任何涉嫌违法交易时，用户应根据司法机关、银行及汇付天下的要求提供涉嫌违法交易的相关证明。</p>
+		<h2>五、汇付天下的权利与义务</h2>
+		<p>（一）承担【快捷支付】系统运行，向用户提供本协议所约定之各项服务。对支付系统的信息处理过程中的安全、保密、及时性负责。</p>
+		<p>（二）汇付天下有权基于交易安全和系统维护的需要，在预先通过网站公示的情形下，对交易系统进行计划性的停机。</p>
+		<p>（三）在用户涉嫌进行违法交易或违反本协议约定时，汇付天下有权对用户的交易进行限额、冻结、停止服务，必要时将移交司法机关处理。</p>
+		<p>（四）汇付天下保留单方修改本协议的权利，并以网站公告的方式予以公示，而不另行通知用户。</p>
+		<h2>六、违约责任</h2>
+		<p>用户因违反本协议及【快捷支付】的相关业务规则，均构成违约。因用户违约而给汇付天下造成的损失的，汇付天下有权依法追究用户违约责任。</p>
+		<h2>七、责任限制</h2>
+		<p>因黑客攻击、计算机病毒、网络服务商或银行系统故障等非因汇付天下故意或重大过失而造成的用户损失，汇付天下不承担责任。</p>
+		<p>在适用法律允许的最大范围内，汇付天下对【快捷支付】系统的功能，不做任何责任的保证，不对用户因使用或不能使用所造成的任何损失承担责任。</p>
+		<h2>八、法律适用与管辖</h2>
+		<p>本协议的订立、生效、变更、履行、解除、终止和解释以及由此产生的所有事项均适用中华人民共和国之法律、法规。</p>
+		<p>涉及本协议履行过程中任何之争议，均以上海市徐汇区人民法院作为诉讼管辖法院。</p>
+	</div>
+	<a class="btn" href="javascript:agreeAg()">已阅读并同意该协议</a>
+</div>
+<div id="mask" class="mask" style="display:none;"></div>
+
+<div class="footer">
+	<a href="http://www.chinapnr.com/intro/" target="_blank">关于汇付天下</a>
+	<a href="http://weibo.com/1938206822" target="_blank">官方微博</a>
+	<a href="http://www.chinapnr.com/qa/" target="_blank">帮助中心</a>
+	<a href="http://www.chinapnr.com/security/" target="_blank">安全中心</a>
+	<p>汇付天下有限公司版权所有 <span>Copyright&copy;2012 ChinaPnR All Right Reserved</span></p>
+	<div class="authentication">汇付天下已与100多家银行合作开通快捷支付业务。联合提供五重加密技术，保障您的账户与信息的安全。</div>
+</div>
+
+<script type="text/javascript">
+
+//处理协议
+function openAg(){
+	$("#agreement").show();
+	$("#mask").show();
+}
+function closeAg(){
+	$("#agreement").hide();
+	$("#mask").hide();
+}
+function agreeAg(){
+	$("#ag").attr("checked", true);
+	closeAg();
+}
+
+function gotoPay(id){
+	if(! $("#ag").attr("checked")){
+		alert("请阅读并同意汇付天下快捷支付服务及相关协议!");
+		return ;
+	}
+
+	if(! checkAll()
+			|| ! checkAuthCode){
+		return ;
+	}
+
+	disablePayButton();
+	disableAuthCode();
+
+	showErrDl();
+
+
+}
+
+function hidePayErr(){
+	$("#AuthCode").val("");
+	removeIcon('AuthCode');
+	reableAuthCode();
+
+	hideErrDl();
+}
+</script>
+
+</body>
+</html>

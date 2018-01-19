@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>汇付天下</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/DatePicker/WdatePicker.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      
+    })
+  </script>
+</head>
+<body class="b_color">
+  <!--头部-->
+  <div class="h_main allpic">
+    <div class="header allpic">
+      <div class="header_logo">
+        <ul>
+          <li class="logo">
+            <a href="http://www.chinapnr.com">
+              <img src="images/chinapnr_logo.jpg" width="214" height="43" alt="汇付天下"></a>
+          </li>
+          <li class="info">
+            <span>
+              用户名: 张娅洁
+            </span>
+            <span>
+              <a href="金账户-个人信息维护.html">个人信息维护</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">退出</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">帮助中心</a>
+            </span>
+            2012-06-26 星期三
+          </li>
+        </ul>
+      </div>
+      <!--菜单-->
+      <div class="menu">
+        <ul>
+          <li class="click_off">
+            <a href="金账户-首页.html">我的首页</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-账户查询-账户总览.html">账户查询</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-交易查询-收款订单查询.html">交易查询</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-充值转账-充值.html">充值转账</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-账户设置-账户结算设置.html">账户设置</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-操作员管理-信息维护.html">操作员管理</a>
+          </li>
+          <li class="click_off">
+            <a href="金账户-应用中心.html">应用中心</a>
+          </li>
+          <li class="other">
+            <span><a href="金账户-应用中心-代发.html">代发</a></span><span><a href="金账户-应用中心-代扣.html">代扣</a></span><span><a href="金账户-应用中心-信用.html">信用</a></span><a href="金账户-应用中心-POS收款.html">POS 收款</a>
+          </li>
+        </ul>
+      </div>
+      <!--菜单结束-->
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+  <!--头部结束-->
+  <!--当中内容块-->
+  <div class="yy_main">
+    <script type="text/javascript">
+    String.prototype.replaceAll  = function(s1,s2){    
+    return this.replace(new RegExp(s1,"gm"),s2);
+  }
+      $(function(){
+        $(".list_th_btn").click(function(){
+          $(".list_th_out").val('<th>'+$(".list_th").val().trim().replaceAll("\n\n", "</th>\n<th>")+"</th>")
+        })
+        $(".list_td_btn").click(function(){
+          $(".list_td_out").val('<td>'+$(".list_td").val().trim().replaceAll("\n\n", "</td>\n<td>")+"</td>")
+        })
+      })
+    </script>
+    <textarea style="width:400px; height:110px;" class="list_th"></textarea>
+    <a href="javascript:void(0);" class="list_th_btn">生成 th th </a>
+    <textarea style="width:400px; height:110px;" class="list_th_out"></textarea>
+    <br /><br />
+    <textarea style="width:400px; height:110px;" class="list_td"></textarea>
+    <a href="javascript:void(0);" class="list_td_btn">生成 td td </a>
+    <textarea style="width:400px; height:110px;" class="list_td_out"></textarea>
+
+  </div>
+  <!--当中内容块结束-->
+  <!--页尾-->
+  <div class="main footer_color footer_margin">
+    <div class="footer">
+      汇付天下有限公司版权所有  Copyright©2012 ChinaPnR All Right Reserved
+      <br>
+      <a href="http://www.chinapnr.com/intro/" target="_blank" class="link">关于汇付天下</a>
+      <a href="http://www.chinapnr.com/service/" target="_blank"  class="link">客户服务</a>
+      <a href="http://www.chinapnr.com/security/" target="_blank"  class="link">账户安全</a>
+      <a href="http://www.chinapnr.com/qa/" target="_blank"  class="link">帮助中心</a>
+      <a href="javascript:void(0);" target="_blank"  class="link">联系我们</a>
+      <p class="allpic">
+        客服电话： <b>400 820 5623</b>
+      </p>
+    </div>
+  </div>
+  <div id="tcdiv" style="display:none">
+    <div class="pop">
+      <div class="main">
+        <div class="clearfix">
+          <span class="label cz_label">操作员:</span>
+          <span class="label label_color">Luna</span>
+        </div>
+        <div class="clearfix">
+          <span class="label cz_label">手机:</span>
+          <span class="label label_color">1380000000</span>
+        </div>
+        <div class="clearfix">
+          <span class="label cz_label">Email:</span>
+          <span class="label label_color">888@chinapnr.com</span>
+        </div>
+        <div class="clearfix margin_t_10">
+          <span class="label cz_label">新密码:</span>
+          <input class="txtbox_cz txtbox_cz_color input_change" type="password"></div>
+        <div class="clearfix margin_t_10">
+          <span class="label cz_label">新密码确认:</span>
+          <input class="txtbox_cz txtbox_cz_color input_change" type="password"></div>
+      </div>
+      <div class="btns">
+        <a href="javascript:void(0);" onClick="BOX_remove('tcdiv')" class="btn confirm">确定</a>
+        <a href="javascript:void(0);" onClick="BOX_remove('tcdiv')" class="btn confirm">取消</a>
+      </div>
+      <a href="javascript:void(0);" class="close" onClick="BOX_remove('tcdiv')"></a>
+    </div>
+  </div>
+  <!--页尾结束-->
+</body>
+</html>

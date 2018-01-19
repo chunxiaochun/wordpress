@@ -1,0 +1,186 @@
+body, div, p, h1, h2, h3, em, span, a, td, form, input, select, textarea {
+    font-size: 12px;
+    font-style: normal;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+	color:#666;
+}
+.toplogo {
+	width:100%;
+	background:#195da5;
+	text-align:center;
+	padding:8px 0 6px;
+}
+h2{
+	color:#333;
+	width:100%;
+	font-size:12px;
+	background:#e1e1e1;
+	padding: 3px 0 3px 10px;	
+}
+.box{
+	padding:10px;
+	padding-top:7px;
+}
+.box p{
+	margin-bottom:7px;
+}
+.box .select{
+	width:205px;
+	height:20px;
+}
+.box .price{
+	color:#cc0000;
+	font-weight:bold;
+}
+.box .info{
+	color:#1b6ec4;
+}
+.twoBorderBlock {
+	width:100%;
+	height:22px;
+	border-bottom:1px solid #A2B6DB;
+}
+.twoBorderBlockBg {
+	width:100%;
+	height:18px;
+	background-color:#EBEFFB;
+	padding-top:3px;
+}
+.orderInfo {
+	width:100%;
+	padding-top:8px;
+	padding-bottom:3px;
+}
+.inputTextBg {
+	padding-top:10px;
+	padding-bottom:5px;
+}
+.BottomBorderBlock {
+	width:100%;
+	height:21px;
+	border-bottom:1px solid #D3D4E8;
+}
+.BottomBorderBlockBg {
+	width:100%;
+	height:20px;
+	background-color:#EBEFFB;
+}
+.font1 {
+	font-size:14px;
+	font-weight:bold;
+}
+.font2 {
+	font-size:12px;
+	font-weight:normal;
+}
+.font3 {
+	font-size:14px;
+	font-weight:normal;
+}
+.font4 {
+	font-size:13px;
+	font-weight:normal;
+}
+.font5 {
+	font-size:12px;
+	font-weight:normal;
+	color:Gray;
+	margin-bottom:8px;
+	margin-top:-5px;
+}
+.marginLeft {
+	margin-left:10px;
+}
+A:link {
+	font-size:12px;
+	color:Black;
+}
+A:visited {
+	font-size:12px;
+	color:Black;
+}
+A:hover {
+	font-size:12px;
+	color:Black;
+}
+A:active {
+	font-size:12px;
+	color:Black;
+}
+.linediv {
+	width:100%;
+}
+.linediv .first {
+	height:100%;
+	width:70px;
+	text-align:right;
+}
+.linediv .second {
+	height:100%;
+	width:auto;
+	text-align:left;
+}
+.banklinedivbottom {
+	width:100%;
+	height:27px;
+	margin-bottom:30px;
+}
+.banklinediv {
+	width:100%;
+	height:27px;
+}
+.banklinediv .first {
+	height:100%;
+	width:100px;
+	text-align:right;
+}
+.banklinediv .second {
+	height:100%;
+	width:auto;
+	text-align:left;
+}
+.banknotice {
+	height:18px;
+	width:300px;
+	padding-left:11px;
+	font-size:12px;
+	font-weight:normal;
+	color:Gray;
+	padding-bottom:3px;
+}
+.bankerror {
+	font-size:14px;
+	font-weight:normal;
+	color:Red;
+	width:300px;
+	padding-left:11px;
+	height:18px;
+}
+.messageLength {
+	width:45px;
+}
+.input {
+	line-height:16px;width:200px; height:16px; font-size:12px; vertical-align:middle; background:#f4f4f4; border:1px solid #e4e4e4; padding:0 0 2px 4px; margin-bottom:10px;
+}
+.confirm_btn{
+	border:1px solid #b92c2c; background:#cc0000; color:#FFFFFF; padding:0 5px 1px; margin-top:10px;
+}
+.remove_btn{
+	border:1px solid #175597; background:#195da5; color:#FFFFFF; padding:0 5px 1px; margin-top:10px;
+}
+.error{ color:#ff0000;padding:0 0 10px 10px;}
+.footer{
+	margin-top:5px;
+	background:#f4f4f4;
+	border-top: 1px solid #e1e1e1;
+	padding: 5px 0 6px 9px;
+}
+.footer a{
+	color:#195da5;
+	text-decoration:underline;	
+}
+.footer span{
+	color:#195da5;	
+}

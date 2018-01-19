@@ -1,0 +1,22 @@
+----------------------------------------
+*** Brians Threaded Comments 1.5 ***
+----------------------------------------
+2005-03-15 / Brian Meidell / version 1.5
+
+In the following, <top> represents the directory in which you have installed wordpress.
+This is the directory that contains your wp-config.php.
+
+To install brians threaded comments, do the following:
+	1) Before beginning, make backup copies of <top>/wp-content/themes/<yourtheme>/comments.php
+	2) Copy briansthreadedcomments.php to <top>/wp-content/plugins/
+	3) Copy comments.php to <top>/wp-content/theme/<yourtheme>/
+	4) Activate brians threaded comments from the plugin page
+
+That should be it.
+Please note that the comments.php file is made so it fits with the default Kubrick theme.
+
+Thanks to Mark Jaquith (http://txfx.net/) for some good pointers.
+Thanks to Martin Geisler (http://mgeisler.net) for bugfixes and closing a security hole.
+
+Have fun and enjoy.
+- Brian

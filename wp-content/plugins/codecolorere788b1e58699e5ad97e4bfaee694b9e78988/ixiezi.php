@@ -1,0 +1,3 @@
+<?
+include 'ixiezi/ixiezi.php';
+?>

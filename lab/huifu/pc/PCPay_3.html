@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>汇付天下</title>
+	<script language="javascript" src="js/jquery.js"></script>
+	<script language="javascript" src="js/PC.js"></script>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<a class="logo" title="CHINAPnR 汇付天下 | 快捷支付"></a>
+	<p class="support_call"></p>
+</div>
+
+<form action="PHRelProc.do" method="post">
+<div class="container">
+	<div class="content_top"></div>
+	<div class="content remove">
+		<h1>银行卡解绑</h1>
+		<dl class="form">
+			<dt><label for="card_no">请选择需要解除绑定的银行卡</label></dt>
+			<dd>
+				<ul id="list" class="list">
+					<li>
+						<a href="javascript:chooseCard(0)" tabindex="1">
+							<img src="images/banks/T1.png" width="17" height="17">
+								中国建设银行(信用卡) - 6648
+						</a>
+						<input type="hidden" name="cardSeqId0" id="cardSeqId0"
+							   value="000000000203" />
+						<input type="hidden" name="cardInfo0" id="cardInfo0"
+							   value="中国建设银行(信用卡) - 6648" />
+					</li>
+					<li>
+						<a href="javascript:chooseCard(1)" tabindex="2">
+							<img src="images/banks/F1.png" width="17" height="17">
+								中国农业银行(信用卡) - 5794
+						</a>
+						<input type="hidden" name="cardSeqId1" id="cardSeqId1"
+							   value="000000000204" />
+						<input type="hidden" name="cardInfo1" id="cardInfo1"
+							   value="中国农业银行(信用卡) - 5794" />
+					</li>
+					<li>
+						<a href="javascript:chooseCard(2)" tabindex="3">
+							<img src="images/banks/F4.png" width="17" height="17">
+								中国光大银行(信用卡) - 3490
+						</a>
+						<input type="hidden" name="cardSeqId2" id="cardSeqId2"
+							   value="000000000205" />
+						<input type="hidden" name="cardInfo2" id="cardInfo2"
+							   value="中国光大银行(信用卡) - 3490" />
+					</li>
+					<li>
+						<a href="javascript:chooseCard(3)" tabindex="4">
+							<img src="images/banks/TX.png" width="17" height="17">
+								浦东发展银行(借记卡) - 5343
+						</a>
+						<input type="hidden" name="cardSeqId3" id="cardSeqId3"
+							   value="000000000206" />
+						<input type="hidden" name="cardInfo3" id="cardInfo3"
+							   value="浦东发展银行(借记卡) - 5343" />
+					</li>
+				</ul>
+			</dd>
+		</dl>
+		<dl class="pay">
+			<a class="btn remove" href="javascript:releaseConfirm()" tabindex="4">解除绑定</a>
+			<a class="btn back" href="PCPay_2.html" tabindex="5">返回</a>
+		</dl>
+	</div>
+	<div class="content_bottom"></div>
+
+	<div class="note" id="confirmDl" style="display:none">
+		<a class="note_a" id="cancelConfirm" href="javascript:hideConfirmDl();" ></a>
+
+		<span class="note_info" id="relCardInfo"></span>
+
+		<a class="btn" id="relConfirm" href="javascript:submitForm();">确认</a>
+	</div>
+</div>
+
+
+<input type="hidden" name="CardSeqId" id="CardSeqId" value="" />
+<input type="hidden" name="CardInfo" id="CardInfo" value="" />
+
+<input type="hidden" name="PageSource" value="/PHPay/PCPay_3.jsp" />
+
+</form>
+
+<div class="footer">
+	<a href="http://www.chinapnr.com/intro/" target="_blank">关于汇付天下</a>
+	<a href="http://weibo.com/1938206822" target="_blank">官方微博</a>
+	<a href="http://www.chinapnr.com/qa/" target="_blank">帮助中心</a>
+	<a href="http://www.chinapnr.com/security/" target="_blank">安全中心</a>
+	<p>汇付天下有限公司版权所有 <span>Copyright&copy;2012 ChinaPnR All Right Reserved</span></p>
+	<div class="authentication">汇付天下已与100多家银行合作开通快捷支付业务。联合提供五重加密技术，保障您的账户与信息的安全。</div>
+</div>
+
+<script type="text/javascript">
+
+function chooseCard(index){
+	$(".current").removeClass("current");
+	$("#list > li:eq(" + index +")").addClass("current");
+
+	noteCard(index);
+}
+
+function noteCard(index){
+	$("#CardSeqId").val($("#cardSeqId" + index).val());
+	$("#CardInfo").val($("#cardInfo" + index).val());
+}
+
+//解绑卡确认
+function releaseConfirm(){
+	if(invalidValue($("#CardSeqId").val())){
+		alert("请选择需要解绑的银行卡");
+		return ;
+	}
+
+	$("#relCardInfo").html("您确定解绑" + $("#CardInfo").val() + "银行卡吗?");
+	$("#confirmDl").show();
+}
+
+function hideConfirmDl(){
+	$("#confirmDl").hide();
+}
+
+function submitForm(){
+	$("#cancelConfirm").removeAttr("href");
+
+	$("#relConfirm").removeAttr("href");
+	$("#relConfirm").removeClass("btn");
+	$("#relConfirm").addClass("btn_disable");
+
+	document.location.href = 'PCPay_1.html';
+}
+</script>
+
+</body>
+</html>

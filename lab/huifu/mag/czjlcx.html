@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>汇付天下</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/DatePicker/WdatePicker.js"></script>
+</head>
+<body class="b_color">
+  <div class="msg" style="display:none">
+    <div class="arrow">
+      <img src="images/info.jpg" width="6" height="10"></div>
+    <ul>
+      <li></li>
+    </ul>
+  </div>
+  <!--头部-->
+  <div class="h_main allpic">
+    <div class="header allpic">
+      <div class="header_logo">
+        <ul>
+          <li class="logo">
+            <a href="http://www.chinapnr.com">
+              <img src="images/chinapnr_logo.jpg" width="214" height="43" alt="汇付天下"></a>
+          </li>
+          <li class="info">
+            <span>
+              用户名: 张娅洁
+            </span>
+            <span>
+              <a href="grxxwh.html">个人信息维护</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">退出</a>
+            </span>
+            <span>
+              <a href="javascript:void(0);">帮助中心</a>
+            </span>
+            2012-06-26 星期三
+          </li>
+        </ul>
+      </div>
+      <!--菜单-->
+      <div class="menu">
+        <ul>
+          <li class="click_off">
+            <a href="index.html">我的首页</a>
+          </li>
+          <li class="click_off">
+            <a href="zhzl.html">账户查询</a>
+          </li>
+          <li class="click_on">
+            <a href="skddcx.html">交易查询</a>
+          </li>
+          <li class="click_off">
+            <a href="cz.html">充值转账</a>
+          </li>
+          <li class="click_off">
+            <a href="zhjssz.html">账户设置</a>
+          </li>
+          <li class="click_off">
+            <a href="xxwh.html">操作员管理</a>
+          </li>
+          <li class="click_off">
+            <a href="yyzx.html">应用中心</a>
+          </li>
+          <li class="other">
+            <span><a href="df.html">代发</a></span><span><a href="dk.html">代扣</a></span><span><a href="xy.html">信用</a></span><a href="POSsk.html">POS 收款</a>
+          </li>
+        </ul>
+      </div>
+      <!--子菜单-->
+      <div class="menu_list">
+        <ul>
+          <li class="off">
+            <a href="skddcx.html">收款订单查询</a>
+          </li>
+          <li class="off">
+            <a href="zfjlcx.html">支付记录查询</a>
+          </li>
+          <li class="off">
+            <a href="qxjlcx.html">取现记录查询</a>
+          </li>
+          <li class="on">
+            <a href="czjlcx.html">充值记录查询</a>
+          </li>
+          <li class="off">
+            <a href="zzjlcx.html">转账记录查询</a>
+          </li>
+        </ul>
+      </div>
+      <!--子菜单结束-->
+      <!--菜单结束-->
+      <div class="clear">&nbsp;</div>
+    </div>
+  </div>
+  <!--头部结束-->
+  <!--当中内容块-->
+  <div class="yy_main">
+    <div class="yy_title">
+      充值记录查询 <b><a href="cz.html" class="zz">充值</a>
+        <span class="line">|</span>
+        <a href="javascript:void(0);" class="zz">使用遇到问题?</a></b> 
+    </div>
+    <div class="transaction_external">
+      <span class="label margin_l_10">起止日期:</span>
+      <input name="beginDate" id="beginDate" class="Wdate" type="text" onClick="WdatePicker()" value="2012-10-23" readonly="readonly">
+      <span class="label margin_l_5">-</span>
+      <input name="beginDate" id="beginDate" class="Wdate" type="text" onClick="WdatePicker()" value="2012-10-23" readonly="readonly">
+      <span class="fund-item margin_l_10 f_l">
+        <select name="name">
+          <option value="">所有状态记录</option>
+          <option value="">选项1</option>
+          <option value="">选项2</option>
+          <option value="">选项3</option>
+        </select>
+      </span>
+      <a class="btn confirm margin_l_10 f_l" href="javascript:void(0);">查询</a>
+      <div class="clear">&nbsp;</div>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>充值成功时间</th>
+          <th>操作员</th>
+          <th>充值类型</th>
+          <th>金额</th>
+          <th>资金渠道</th>
+          <th>状态</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2000/1/1-11:11:11</td>
+          <td>操作员1</td>
+          <td>网上充值</td>
+          <td>1</td>
+          <td>招商银行</td>
+          <td>交易成功</td>
+          <td>
+            <a href="czjlcxxq.html" target="_blank">详情</a>
+          </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="8">
+            <p class="action">
+              1 - 6 条,  共10条
+              <a href="javascript:void(0);">上一页</a>
+              |
+              <a href="javascript:void(0);" class="current">1</a>
+              <a href="javascript:void(0);">2</a>
+              |
+              <a href="javascript:void(0);">下一页</a>
+            </p>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <div class="clear">&nbsp;</div>
+  </div>
+  <!--当中内容块结束-->
+  <!--页尾-->
+  <div class="main footer_color footer_margin">
+    <div class="footer">
+      汇付天下有限公司版权所有  Copyright©2012 ChinaPnR All Right Reserved
+      <br>
+      <a href="http://www.chinapnr.com/intro/" target="_blank" class="link">关于汇付天下</a>
+      <a href="http://www.chinapnr.com/service/" target="_blank"  class="link">客户服务</a>
+      <a href="http://www.chinapnr.com/security/" target="_blank"  class="link">账户安全</a>
+      <a href="http://www.chinapnr.com/qa/" target="_blank"  class="link">帮助中心</a>
+      <a href="javascript:void(0);" target="_blank"  class="link">联系我们</a>
+      <p class="allpic">
+        客服电话：
+        <b>400 820 5623</b>
+      </p>
+    </div>
+  </div>
+  <!--页尾结束-->
+</body>
+</html>
