@@ -19,16 +19,15 @@ define('WP_MEMORY_LIMIT', '512M');
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
-define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
+define('DB_NAME', 'qdm206883164_db');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_PASSWORD','Passw0rd');
 
 /** MySQL 主机 */
-define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST') . ':' . getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('DB_HOST', 'qdm206883164.my3w.com:3306');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8');
